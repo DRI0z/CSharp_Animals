@@ -4,6 +4,11 @@ namespace ConsoleAppAnimals.Models.Animals
 {
     public class Dragons : Animal, IPilotage
     {
+        public Dragons(string name, string rarity)
+        {
+            Name = name;
+            Rarity = rarity;
+        }
         public override void Move()
         {
             Console.WriteLine($"{Name} Dragon Move");
