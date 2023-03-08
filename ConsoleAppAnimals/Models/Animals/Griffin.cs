@@ -4,12 +4,12 @@
     {
         public override void Move()
         {
-            Console.WriteLine(Name + " Griffin Move");
+            Console.WriteLine($"{Name} Griffin Move");
         }
 
         public new void Sleep()
         {
-            Console.WriteLine(Name + " Griffin Sleep");
+            Console.WriteLine($"{Name} Griffin Sleep");
         }
     }
 }

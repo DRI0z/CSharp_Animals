@@ -13,7 +13,7 @@
 
         public virtual void Sleep()
         {
-            Console.WriteLine("Animal Sleep");
+            Console.WriteLine($"{Name} Sleep");
         }
     }
 }
