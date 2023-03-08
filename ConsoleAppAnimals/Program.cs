@@ -6,13 +6,15 @@ namespace ConsoleAppAnimals
     {
         public static void Main(string[] args)
         {
-            Animals chat = new Animals("Chat");
-            Animals chien = new Animals("Chien");
-            Animals animal = new Animals();
+            Griffin griffin = new Griffin();
+            Dragons dragons = new Dragons();
 
-            chat.Sleep(); 
-            chien.Move();
-            animal.Sleep();
+            griffin.Sleep();
+            griffin.Move();
+
+            dragons.Move();
+            dragons.Sleep();
+
         }
     }
 }
