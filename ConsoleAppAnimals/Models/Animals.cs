@@ -10,6 +10,11 @@ namespace ConsoleAppAnimals.Models
     {
         public string Name;
 
+        public Animals() 
+        {
+            this.Name = "Animal sans nom";
+        }
+
         public Animals(string Name)
         {
             this.Name = Name;
