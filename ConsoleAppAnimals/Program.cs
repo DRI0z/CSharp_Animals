@@ -1,5 +1,6 @@
 ﻿using ConsoleAppAnimals.Models;
 using ConsoleAppAnimals.Models.Animals;
+using ConsoleAppAnimals.Models.Vehicules;
 
 namespace ConsoleAppAnimals
 {
@@ -10,12 +11,17 @@ namespace ConsoleAppAnimals
             Griffin griffin = new Griffin();
             Dragons dragons = new Dragons();
 
+            Vehicule vehicule = new Vehicule();
+
             griffin.Sleep();
             griffin.Move();
 
             dragons.Move();
+            dragons.Moove();
             dragons.Sleep();
 
+            vehicule.Name = "Citroën";
+            vehicule.Moove();
         }
     }
 }
