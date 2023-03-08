@@ -1,4 +1,5 @@
 ﻿using ConsoleAppAnimals.Models;
+using ConsoleAppAnimals.Models.Animals;
 
 namespace ConsoleAppAnimals
 {

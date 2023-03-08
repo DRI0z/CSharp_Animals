@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppAnimals.Models.Animals
+﻿namespace ConsoleAppAnimals.Models.Animals
 {
-    public abstract class Animals
+    public abstract class Animal
     {
         public string Name { get; private set; }
 
-        public Animals()
+        public Animal()
         {
             Name = "Animal";
         }
 
         public abstract void Move();
 
-        public void Sleep()
+        public virtual void Sleep()
         {
             Console.WriteLine("Animal Sleep");
         }

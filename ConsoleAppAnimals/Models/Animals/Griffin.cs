@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppAnimals.Models.Animals
+﻿namespace ConsoleAppAnimals.Models.Animals
 {
-    public class Griffin : Animals
+    public class Griffin : Animal
     {
         public override void Move()
         {
