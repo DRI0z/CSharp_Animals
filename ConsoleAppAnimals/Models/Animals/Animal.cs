@@ -2,11 +2,13 @@
 {
     public abstract class Animal
     {
-        public string Name { get; private set; }
+        public string Name { get; set; }
+        public string Rarity { get; set; } 
+        public int Old { get; set; } 
 
         public Animal()
         {
-            Name = "Animal";
+
         }
 
         public abstract void Move();
