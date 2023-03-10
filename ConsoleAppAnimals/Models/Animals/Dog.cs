@@ -8,10 +8,11 @@ namespace ConsoleAppAnimals.Models.Animals
 {
     public class Dog : Animal
     {
-        public Dog(string name, string rarity) 
+        public Dog(string name, string rarity, int old) 
         {
             Name = name;
             Rarity = rarity;
+            Old= old;
         }
 
         public override void Move()

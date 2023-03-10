@@ -4,10 +4,11 @@ namespace ConsoleAppAnimals.Models.Animals
 {
     public class Dragons : Animal, IPilotage
     {
-        public Dragons(string name, string rarity)
+        public Dragons(string name, string rarity, int old)
         {
             Name = name;
             Rarity = rarity;
+            Old = old;
         }
         public override void Move()
         {
