@@ -1,8 +1,9 @@
-﻿using ConsoleAppAnimals.Service.VehiculeService;
+﻿using ConsoleAppAnimals.Service.AnimalService;
+using ConsoleAppAnimals.Service.VehiculeService;
 
 namespace ConsoleAppAnimals.Models.Animals
 {
-    public class Dragons : Animal, IPilotage
+    public class Dragons : Animal, IPilotage, IFly
     {
         public Dragons(string name, string rarity, int old)
         {
@@ -23,6 +24,11 @@ namespace ConsoleAppAnimals.Models.Animals
         public new void Sleep()
         {
             Console.WriteLine($"{Name} Dragon Sleep");
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine($"{Name} Fly");
         }
     }
 }
